@@ -14,11 +14,7 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
- /*
-        String nombre= getIntent().getStringExtra("nombre");
-        String apellido= getIntent().getStringExtra("apellido");
-        String completo= nombre+" "+apellido;
-        */
+ 
 
         TextView txtNombre= findViewById(R.id.txtNonbre);
         txtNombre.setText("completo");

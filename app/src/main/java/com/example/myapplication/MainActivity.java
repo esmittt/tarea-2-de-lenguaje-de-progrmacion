@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toast.makeText(this, "Metodo 3", Toast.LENGTH_SHORT).show();
     }
 
+
     public void enviarActivity(View view) {
         Intent intent =new Intent(this,MainActivity2.class);
         intent.putExtra("nombre","klisman");
@@ -55,6 +56,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startActivity(intent);
     }
 
+    public void enviarAlarma(View view) {
+        Intent intent =new Intent(this,MainActivity2.class);
+
+        startActivity(intent);
+    }
 
     public void saliApp(View view) {
         finish();

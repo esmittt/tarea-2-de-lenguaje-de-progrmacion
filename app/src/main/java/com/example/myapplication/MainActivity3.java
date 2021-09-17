@@ -30,7 +30,7 @@ public class MainActivity3 extends AppCompatActivity {
             if (pass.equals("12345")) {
 
 
-                Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }else
                 {
